@@ -1,15 +1,14 @@
 
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import com.digite.kata.eg2.Car;
 import com.digite.kata.eg2.Gear;
 
-class JTestCar {
+public class JTestCar {
 
 	Car car;
 	
@@ -23,6 +22,13 @@ class JTestCar {
 	{
 			car.changeGear(Gear.D);
 			assertEquals(car.getGear(), Gear.D);
+	}
+	
+	@Test
+	public void testPassesAfterChangingCarClass() 
+	{
+		car.changeGear(Gear.D);
+		assertEquals(car.getGear(), Gear.D);
 	}
 
 }
