@@ -11,4 +11,5 @@ public class Vehicle {
     public void changeGear(final Gear gear) {
         this.gear = gear;
     }
+    
 }
