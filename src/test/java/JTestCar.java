@@ -30,5 +30,19 @@ public class JTestCar {
 		car.changeGear(Gear.D);
 		assertEquals(car.getGear(), Gear.D);
 	}
+	
+	@Test
+	public void testThrowErrorChecking() 
+	{
+		try
+		{
+			car.changeGear(Gear.D);
+			car.changeGear(Gear.R);
+		}
+		catch(Exception e)
+		{
+			assertEquals(e.getMessage(), "Can't change to REVERSE gear when D gear is engaged!");
+		}
+	}
 
 }
