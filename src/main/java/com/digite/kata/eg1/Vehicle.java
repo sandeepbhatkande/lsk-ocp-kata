@@ -20,5 +20,4 @@ public class Vehicle {
     public void setSuspensionHeight(final int suspensionHeight) {
         this.suspensionHeight = suspensionHeight;
     }
-
 }
