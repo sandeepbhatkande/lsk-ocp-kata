@@ -1,6 +1,10 @@
 package com.digite.kata.eg2;
 
 public class Plane extends Vehicle {
-    // A plane can reverse engine gear while moving forward, no problem here
+	 @Override
+    public void changeGear(Gear gear) {
+        	super.changeGear(gear);
+    }
+	
 }
 
