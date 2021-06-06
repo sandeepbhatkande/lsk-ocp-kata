@@ -5,10 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.digite.kata</groupId>
-    <artifactId>stringcalculator</artifactId>
+    <artifactId>parkinglot</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>stringcalculator</name>
+    <name>parkinglot</name>
     <url>http://www.digite.com</url>
 
     <properties>
